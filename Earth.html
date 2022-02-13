@@ -1,0 +1,12 @@
+<a-scene>
+  <a-camera position='0 0 3' user-height='0'></a-camera>
+  <a-sphere src="https://raw.githubusercontent.com/aframevr/sample-assets/master/assets/images/space/earth_atmos_4096.jpg" radius="1.5" segments-height="53"> 
+     <a-animation attribute="rotation"
+              dur="10000"
+              fill= "forwards"
+              to="0 360 0"
+              easing="linear"
+              repeat="indefinite"></a-animation>
+  </a-sphere>
+  <a-sky segments-height="100" segments-width="100"  src="https://ucarecdn.com/ffc43b6b-dfe6-488e-961e-96e4dbc1e3e4/" color="#555" rotation="0 -90 0"></a-sky>
+</a-scene>
